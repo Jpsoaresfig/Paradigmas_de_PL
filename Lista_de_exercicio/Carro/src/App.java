@@ -19,5 +19,6 @@ public class App {
         System.out.println(velocidade);
         Caracters car = new Caracters("Nissan", "Versa", 2012);
         System.out.println(car);
+        scan.close();
     }
 }
